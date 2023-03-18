@@ -1,0 +1,128 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Set font family and size */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+/* Set header and navigation styles */
+header {
+background-color: #fff;
+border-bottom: 1px solid #eee;
+padding: 20px;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav li {
+margin-right: 20px;
+}
+nav a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+nav a:hover {
+color: #0077b5;
+}
+
+/* Set hero section styles */
+#hero {
+background-image: url('https://www.interncrowd.in/img/home/Group%2023.svg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 100px 20px;
+text-align: center;
+color: #fff;
+}
+#hero h1 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+#hero p {
+font-size: 24px;
+margin-bottom: 40px;
+}
+.btn {
+display: inline-block;
+background-color: #0077b5;
+color: #fff;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.2s ease-in-out;
+}
+.btn:hover {
+background-color: #005f8d;
+}
+
+/* Set features section styles */
+#features {
+padding: 100px 20px;
+text-align: center;
+background-color: #f5f5f5;
+}
+#features h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+#features ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#features li {
+flex: 1;
+margin: 0 20px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#features h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+#features p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+/* Set testimonials section styles */
+#testimonials {
+padding: 100px 20px;
+text-align: center;
+}
+#testimonials h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+#testimonials ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#testimonials li {
+flex: 1;
+margin: 0 20px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+text-align: left;
+}
+#testimonials blockquote {
+font-style: italic;
+font-size: 24px;
+margin-bottom: 20px;
